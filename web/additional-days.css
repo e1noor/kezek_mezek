@@ -1,0 +1,29 @@
+.extra-days-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 20px 0 10px;
+}
+.extra-days-heading strong,
+.extra-day-head strong {
+  font-size: 12px;
+  color: #405a79;
+}
+.extra-days-heading p { margin: 4px 0 0; }
+.extra-day {
+  border: 1px solid #dfe7f0;
+  background: #f9fbfe;
+  border-radius: 15px;
+  padding: 13px;
+  margin-bottom: 10px;
+}
+.extra-day-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 11px;
+}
+.extra-day .field:last-child { margin-bottom: 0; }
+.extra-day .muted { margin: 8px 0 0; }
+.delete-assignment-action { width: 100%; margin-top: 12px; }

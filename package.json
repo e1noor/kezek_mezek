@@ -1,0 +1,15 @@
+{
+  "name": "kezek-mezek",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "db:local": "wrangler d1 migrations apply kezek-mezek --local",
+    "db:remote": "wrangler d1 migrations apply kezek-mezek --remote",
+    "deploy": "wrangler deploy",
+    "test": "node --test --test-isolation=none"
+  },
+  "devDependencies": {
+    "wrangler": "^4.45.0"
+  }
+}

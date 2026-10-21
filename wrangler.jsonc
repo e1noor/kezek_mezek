@@ -1,0 +1,18 @@
+{
+  "name": "kezek-mezek",
+  "main": "src/worker.js",
+  "compatibility_date": "2026-09-01",
+  "assets": {
+    "directory": "./web",
+    "binding": "ASSETS",
+    "run_worker_first": ["/api/*", "/telegram/*"]
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "kezek-mezek",
+      "database_id": "303faa63-f2f3-4a91-887f-abad27e5594c",
+      "migrations_dir": "migrations"
+    }
+  ]
+}
